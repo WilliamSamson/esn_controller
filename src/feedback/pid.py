@@ -1,4 +1,3 @@
-# src/feedback/pid.py
 import numpy as np
 from typing import Tuple
 
@@ -22,7 +21,7 @@ class PIDController:
         derivative = (error - self.prev_error) / self.dt if self.dt > 0 else 0.0
 
         output = self.kp * error + self.ki * self.integral + self.kd * derivative
-        output = np.clip(output, self.output_limits[0], self.output_limits[1])
+        output = float(np.clip(output, self.output_limits[0], self.output_limits[1]))  # Ensure scalar output
 
         self.prev_error = error
         return output
