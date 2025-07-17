@@ -1,0 +1,11 @@
+{
+  "mse_mean": 0.0,
+  "mse_median": 0.0,
+  "mse_std": 0.0,
+  "mse_min": 0.0,
+  "mse_max": 0.0,
+  "mse_q25": 0.0,
+  "mse_q75": 0.0,
+  "convergence_rate": -0.0,
+  "final_stability": 0.0
+}

@@ -1,0 +1,25 @@
+# docs/figures/plot_config.yaml  # Grok
+style:
+  font.family: Times New Roman
+  font.size: 12
+  axes.titlesize: 14
+  axes.labelsize: 12
+  xtick.labelsize: 10
+  ytick.labelsize: 10
+  legend.fontsize: 10
+  figure.figsize: [8, 4]
+  figure.dpi: 300
+colors:
+  primary: '#1f77b4'
+  secondary: '#ff7f0e'
+  target: '#2ca02c'
+  error: '#d62728'
+  grid: '#7f7f7f'
+line_styles:
+  data: '-'
+  target: '--'
+  error: ':'
+save:
+  format: png
+  bbox_inches: tight
+  dpi: 300
